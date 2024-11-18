@@ -1,0 +1,309 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #020000;
+    color: white;
+    padding: 1em;
+}
+
+
+
+/* Estilos para el menú de navegación */
+nav {
+    background-color: #8ba4db;  /* Color de fondo oscuro */
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;       /* Quita los puntos de la lista */
+    display: flex;          /* Coloca los elementos en línea */
+    justify-content: center; /* Centra el menú */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;           /* Color del texto */
+    text-decoration: none;   /* Quita el subrayado */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #762e79;             /* Cambia de color cuando se pasa el cursor */
+}
+
+
+/* Estilo para el banner */
+header {
+    background-color: #0c660f;
+    color: white;
+    text-align: center;
+    padding: 2em;
+}
+
+/* Estilo para las secciones */
+section {
+    padding: 2em;
+    margin: 2em 0;
+}
+
+#about img {
+    display: block;
+    margin: 1em auto;
+}
+
+.service-item {
+    background-color: #f4f4f4;
+    padding: 1em;
+    margin: 1em 0;
+}
+
+.service-item-1 {
+    background-color: #f4f4f4;
+    padding: 1em;
+    margin: 1em 0;
+    transform: translate(-20%, -80%);
+}
+
+
+/* Reseñas */
+blockquote {
+    font-style: italic;
+    color: #faf5f5;
+    margin: 1em 0;
+    padding-left: 1em;
+    border-left: 3px solid #170435;
+}
+
+/* Pie de página */
+footer {
+    background-color: #d7e1f5;
+    color: rgb(22, 6, 6);
+    text-align: center;
+    padding: 0.5em;
+    margin-top: 2em;
+    border-radius: 10px;
+    .image {
+        width: 300px;          /* Ajusta el tamaño de la imagen */
+        border-radius: 9px;    /* Opcional: redondea los bordes de la imagen */
+    .text-1
+        font-size: 1rem;
+        color: #000000;
+    }
+}
+
+footer a {
+    color: #2bb2db;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+form {
+    background: rgb(151, 158, 214);
+    padding: 50px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(70, 6, 6, 0.1);
+    width: 31'cqb; /* Ancho del formulario */
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+h1 {
+    position: absolute; /* Posicionar el encabezado en la parte superior */
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%); /* Centrar el encabezado */
+    margin: 0;
+}
+
+
+
+
+
+body {
+    background-image: url("img/8b611740ee21d364b6514e64ff948281_XL.jpg"); /* Asegúrate de que la ruta sea correcta */
+    background-size: cover;                 /* Escala la imagen para cubrir toda la pantalla */
+    background-repeat: no-repeat;           /* Evita que la imagen se repita */
+    background-position: center;            /* Centra la imagen */
+}
+
+
+
+
+
+
+
+
+/* Sobre la empresa, primera img*/
+.hero-section {
+    background-image: url("img/TumacoBeach.jpg");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;  
+}
+.hero-section {
+    background-color: #160606;
+    color: white;
+    padding: 1em;
+}
+
+
+.about{
+    background-color: #b34848;
+    color: rgb(201, 163, 163);
+    padding: 1em;
+}
+
+
+
+
+/* Imagen al lado de texto*/
+
+.content-container {
+    display: flex;
+    align-items: center;   /* Alinea verticalmente la imagen y el texto */
+    gap: 20px;             /* Espacio entre la imagen y el texto */
+}
+
+.image {
+    width: 350px;          /* Ajusta el tamaño de la imagen */
+    border-radius: 9px;    /* Opcional: redondea los bordes de la imagen */
+}
+
+.text {
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.content-container-1 {
+    display: flex;
+    align-items: center;   /* Alinea verticalmente la imagen y el texto */
+    gap: 20px;             /* Espacio entre la imagen y el texto */
+}
+
+.image {
+    width: 40000000px;          /* Ajusta el tamaño de la imagen */
+    border-radius: 9px;    /* Opcional: redondea los bordes de la imagen */
+}
+
+.text {
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+
+.hotel-ini {
+    display: flex;
+    align-items: center;   /* Alinea verticalmente la imagen y el texto */
+    gap: 20px;             /* Espacio entre la imagen y el texto */
+}
+
+.image {
+    width: 150px;          /* Ajusta el tamaño de la imagen */
+    border-radius: 5px;    /* Opcional: redondea los bordes de la imagen */
+}
+
+.text {
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+
+
+
+
+
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor de la oferta */
+.offer-container {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 0px;
+    overflow: hidden;
+}
+
+/* Imagen de fondo */
+.background-image {
+    width: 100%;
+    height: auto;
+}
+
+/* Contenido de la oferta */
+.offer-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-80%, -20%);
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 60%;
+}
+
+/* Texto principal */
+.offer-content h1 {
+    font-size: 2em;
+    color: #2f2f2f;
+    margin-bottom: 10px;
+}
+
+/* Descripción */
+.offer-content p {
+    font-size: 1.2em;
+    color: #4f4f4f;
+}
+
+/* Botón de reserva */
+.reserve-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+

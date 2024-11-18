@@ -1,0 +1,104 @@
+/* Estilos para el menú de navegación */
+nav {
+    background-color: #8aa6da;  /* Color de fondo oscuro */
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;       /* Quita los puntos de la lista */
+    display: flex;          /* Coloca los elementos en línea */
+    justify-content: center; /* Centra el menú */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;           /* Color del texto */
+    text-decoration: none;   /* Quita el subrayado */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #762e79;             /* Cambia de color cuando se pasa el cursor */
+}
+
+
+
+.hero-section {
+    background-image: url("img/TumacoBeach.jpg");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;  
+}
+
+.hero.content {
+    background-image: url("img/TumacoBeach.jpg");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;  
+}
+
+
+
+.custom-sec {
+    background-image: url("img/8b611740ee21d364b6514e64ff948281_XL.jpg");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;  
+}
+
+
+
+/* Servicios*/
+body {
+    background-color: #c7b4e0; /* Usa el código de color que prefieras */
+    color: #333;               /* Opcional: color del texto */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.service-item-1 {
+    transform: translate(-0%, -100%);
+}
+
+
+.habitación-1 {
+    display: flex;    
+    align-self: center;      /* Al linea verticalmente la imagen y el texto */
+    gap: 20px;      /* Espacio entre la imagen y el texto */
+}
+
+.image {
+    width: 150px;          /* Ajusta el tamaño de la imagen */
+    border-radius: 5px;    /* Opcional: redondea los bordes de la imagen */
+}
+
+.text {
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+
+/*Servicios c/u*/
+
+.container {
+    display: flex;
+    align-items: center; /* Opcional: centra verticalmente */
+}
+
+.text {
+    flex: 1; /* Hace que el texto ocupe el espacio disponible a la izquierda */
+    padding-right: 20px; /* Espacio entre el texto y la imagen */
+}
+
+.image img {
+    max-width: 100%; /* Asegura que la imagen no sea demasiado grande */
+    height: auto;
+    border-radius: 5px; 
+}
